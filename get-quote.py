@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 def primary():
+=======
+def main():
+>>>>>>> f0844690dd5981cc2bee5df2870fd70883fdf816
    print("Keep it logically awesome.")
 
   #f = open("quotes.txt")
