@@ -1,15 +1,11 @@
-<<<<<<< HEAD
 def primary():
-=======
-def main():
->>>>>>> f0844690dd5981cc2bee5df2870fd70883fdf816
-   print("Keep it logically awesome.")
+  #print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes[0])
 
 if __name__== "__main__":
   primary()
